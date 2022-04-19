@@ -40,6 +40,8 @@ elBtn.addEventListener("click", function(e) {
     message = `superkontrakt shartnomasi asosida oqishga qabul qilindingiz`;
   } else if (elBall.value < 50) {
     message = `qabul qilinmadingiz`
+  } else if (elBall.value >=250 {
+    message = `noto'g'ri malumot kiriydingiz`
   }
 
   
