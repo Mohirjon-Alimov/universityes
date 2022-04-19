@@ -41,7 +41,7 @@ elBtn.addEventListener("click", function(e) {
   } else if (elBall.value < 50) {
     message = `qabul qilinmadingiz`;
   } else if (elBall.value >=250) {
-    message = `noto'g'ri malumot kiriydingiz`;
+    message = `noto'g'ri malumot kiritdingiz`;
   }
 
   
