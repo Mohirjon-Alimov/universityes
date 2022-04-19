@@ -32,9 +32,9 @@ elBtn.addEventListener("click", function(e) {
 
   elBall.style.borderColor = "black";
 
-  if (elBall.value >=120) {
+  if (elBall.value >=120 && elBall.value < 249) {
     message = `grant asosida oqishga qabul qilindingiz`;
-  } else if (elBall.value >=65) {
+  } else if (elBall.value >=65 || elBall.value <= 119) {
     message = `kontrakt shartnomasi asosida oqishga qabul qilindingiz`;
   } else if (elBall.value >=50) {
     message = `superkontrakt shartnomasi asosida oqishga qabul qilindingiz`;
